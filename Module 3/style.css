@@ -1,0 +1,73 @@
+.top_container{
+	width:100%;
+	height:150px;
+}
+#logo{
+	margin-left: 50px;
+	width: 180px;
+	height: 150px;
+	vertical-align: middle;
+
+}
+#title{
+	display: inline-block;
+	font-family: 'Fredoka One', cursive;
+}
+a:link, a:visited{
+	color: inherit;
+}
+.wrapper{
+	display:flex;
+	justify-content: space-evenly;
+}
+.box1{
+	width: 200px;
+	height: 200px;
+	background-color: #f5e965;
+}
+.box2{
+	width: 200px;
+	height: 200px;
+	background-color: #ff9668;
+}
+.box3{
+	width: 200px;
+	height: 200px;
+	background-color: #db456f;
+}
+.box4{
+	width: 200px;
+	height: 200px;
+	background-color: #a74faf;
+}
+.main_space{
+	width: 100%;
+	height: 300px;
+	margin-top: 50px;
+	margin-left: 70px;
+}
+p{
+	color: #474a56
+}
+#paragraph_one{
+	margin-right: 100px;
+	text-indent: 25px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+}
+
+#paragraph_one::first-letter {
+	font-size: 35pt;
+}
+ol{
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	color: black;
+}
+#paragraph_two{
+	margin-right: 100px;
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+	text-transform: capitalize;
+
+}
